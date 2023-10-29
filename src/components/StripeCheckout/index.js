@@ -53,7 +53,7 @@ const CheckoutForm = () => {
 
   const createPaymentIntent = async () => {
     try {
-      const { data } = await axios.post(url, {
+      const {data}  = await axios.post(url, {
         cart,
         shipping_fee,
         total_amount,
@@ -61,9 +61,14 @@ const CheckoutForm = () => {
           name: shipping.name,
           address: shipping.address,
         },
+
       });
+      // console.log("Response from server: ", response);
+      console.log("Secret ID-->>>>>>",data.clientSecret);
       setClientSecret(data.clientSecret);
+      console.log("Final->",clientSecret);
     } catch (error) {
+      console.log("Error->>>",error);
       toast.error('Some error occured while connecting to the payment gateway');
     }
   };

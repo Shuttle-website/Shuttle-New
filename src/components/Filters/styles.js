@@ -8,6 +8,7 @@ const Wrapper = styled.section`
     }
   }
   .search-input {
+    width: 100%;
     padding: 0.5rem;
     background: var(--clr-grey-10);
     border-radius: var(--radius);

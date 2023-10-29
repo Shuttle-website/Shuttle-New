@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { FeaturedProducts, Hero, Services, Contact } from '../../components';
+import Carousel from '../../components/Carousel';
+import NewProducts from "../../components/NewArrivals/index"
 
 const HomePage = () => {
   useEffect(() => {
@@ -8,8 +10,11 @@ const HomePage = () => {
 
   return (
     <main>
-      <Hero />
+      <Carousel />
+      {/* <Hero /> */}
       <FeaturedProducts />
+      {/* <NewProducts /> */}
+      {/* <FeaturedProducts /> */}
       <Services />
       <Contact />
     </main>

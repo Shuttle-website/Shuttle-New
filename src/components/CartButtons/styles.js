@@ -25,10 +25,10 @@ const Wrapper = styled.div`
     }
   }
   .cart-value {
-    position: absolute;
+    position: relative;
     top: -10px;
-    right: -16px;
-    background: var(--clr-primary-5);
+    right: 0;
+    background: rgb(180,180,180);
     width: 16px;
     height: 16px;
     display: flex;

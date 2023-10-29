@@ -15,13 +15,18 @@ export const links = [
   },
   {
     id: 2,
-    text: 'about',
-    url: '/about',
+    text: 'store',
+    url: '/products',
   },
   {
     id: 3,
-    text: 'products',
+    text: 'combo',
     url: '/products',
+  },
+  {
+    id: 3,
+    text: 'contact',
+    url: '/about',
   },
 ];
 

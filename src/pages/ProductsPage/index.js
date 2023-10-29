@@ -9,7 +9,7 @@ const ProductsPage = () => {
 
   return (
     <main>
-      <PageHero title='products' />
+      {/* <PageHero title='products' /> */}
       <Wrapper className='page'>
         <div className='section-center products'>
           <Filters />

@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.section`
-  img {
-    height: 175px;
-  }
 
   .products-container {
     display: grid;

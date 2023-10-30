@@ -101,7 +101,7 @@ function ProfilePage() {
   };
 
   useEffect(() => {
-    document.title = 'Tomper Wear | Profile';
+    document.title = 'Shuttle | Profile';
   }, []);
 
   return (

@@ -5,7 +5,7 @@ import NewProducts from "../../components/NewArrivals/index"
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = 'Tomper Wear | Home';
+    document.title = 'Shuttle | Home';
   }, []);
 
   return (
@@ -13,6 +13,9 @@ const HomePage = () => {
       <Carousel />
       {/* <Hero /> */}
       <FeaturedProducts />
+
+      <FeaturedProducts />
+
       {/* <NewProducts /> */}
       {/* <FeaturedProducts /> */}
       <Services />

@@ -3,13 +3,21 @@ import styled from 'styled-components';
 const Wrapper = styled.section`
   background: var(--clr-grey-10);
   .featured {
-    margin: 4rem auto;
+    margin: 2rem 2rem;
     display: grid;
-    gap: 2.5rem;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 4.5rem;
     img {
-      height: 225px;
+      height: 370px; /* Increase the height to make the cards bigger */
     }
+    justify-content: center; 
+    align-items: center;
   }
+
+  .card--container{
+    margin-left: 45px;
+  }
+
   .btn {
     display: block;
     width: 148px;

@@ -19,7 +19,7 @@ svg {
 
 .card--item > img {
     border: 1px solid rgb(240,240,240);
-    height: 250px;
+    height: 300px;
     object-fit: cover;
     border-radius: 8px;
     /* flex-grow: 1; */
@@ -46,6 +46,7 @@ svg {
 
 .card--container {
     display: grid;
+    width: 80vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* justify-content: space-between; */
     /* flex-wrap: wrap; */

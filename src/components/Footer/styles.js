@@ -23,7 +23,7 @@ const Wrapper = styled.footer`
     padding: 0.8rem;
   }
   .footerLinks a:hover {
-    color: var(--clr-primary-5);
+    color: var(--clr-white-5);
   }
   .footerSocialLinks,
   .footerLinks {

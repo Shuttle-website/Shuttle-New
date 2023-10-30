@@ -12,16 +12,7 @@ function Card(props) {
 	}
 	return (
 		<>
-			<Link to={`/products/${id}`} className='link'>
-			</Link>
-			<div className="card--item">
-				<img src={props.img} alt="image" />
-				<FaSearch />
-				<span className="card--shuttle">Shuttle</span>
-				<div className="card--desc">{props.desc}</div>
-				<div className="card--price">${props.price}</div>
-				<div className="card--rating">{stars}</div>
-			</div>
+		
 		</>
 	);
 }

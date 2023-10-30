@@ -26,7 +26,7 @@ function App() {
     isSidebarOpen === true ? 'hidden' : 'scroll';
 
   return (
-    <div style={{ maxHeight: '100vh', overflow: overflowPropertyToHideScroll }}>
+    <div style={{ maxHeight: '100vh' }}>
       <Router>
         <Toast />
         <Navbar />

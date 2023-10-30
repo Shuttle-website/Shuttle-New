@@ -2,10 +2,6 @@ import React, { useEffect } from 'react';
 import Wrapper from './styles';
 import { Hero, PageHero } from '../../components';
 import aboutImg from '../../assets/hero-bcg.jpeg';
-import {
-  MDBInput,
-  MDBBtn
-} from 'mdb-react-ui-kit';
 
 const AboutPage = () => {
   useEffect(() => {
